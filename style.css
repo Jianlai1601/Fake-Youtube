@@ -1,0 +1,535 @@
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 56px;
+}
+
+img {
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+    background-color: hsla(0, 0%, 83%, 0);
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    min-width: 1024px;
+    max-width: 1920px;
+    min-height: 768px;
+    max-height: 1080px;
+}
+
+.top {
+    padding-top: 10px;
+}
+
+#topContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+#start {
+    align-items: center;
+    padding-left: 25px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+#menuBtn {
+    width: 25px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#logoBtn {
+    width: 90px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 22px;
+}
+
+#searchBox {
+    font-size: 16px;
+    width: 530px;
+    height: 36px;
+    padding: 18px 15px;
+    margin: 0px;
+    box-sizing: border-box;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+    border: 2px solid;
+    border-color: hsla(0, 0%, 83%, 0.511);
+    box-shadow: none;
+    margin-right: 0px;
+}
+
+#search {
+    height: 36px;
+    width: 62px;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 28px;
+    margin: 0px;
+    margin-left: 0px;
+    box-sizing: border-box;
+    margin-right: 10px;
+    border: none;
+    background-color: hsla(0, 0%, 83%, 0.258);
+}
+
+#microphone {
+    height: 36px;
+    width: 45px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 28px;
+    border-radius: 30px;
+    border: none;
+    background-color: hsla(0, 0%, 83%, 0.253);
+}
+
+#microphoneText {
+    font-size: 16px;
+}
+
+#end {
+    padding-right: 30px;
+}
+
+#createBtn {
+    width: 30px;
+    margin-right: 20px;
+}
+
+#notificationBtn {
+    width: 23px;
+    position: relative;
+    top: -3px;
+    margin-right: 20px;
+}
+
+#profileBtn {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+}
+
+#searchIcon {
+    font-size: 18px;
+    width: 20px;
+}
+
+#microphoneText {
+    font-size: 18px;
+    width: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#blockTop {
+    margin-top: 50px;
+}
+
+#contentMenu {
+    position: static;
+    z-index: 9;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 15px;
+    width: 250px;
+    height: 500px;
+    scrollbar-width: 5px;
+    scrollbar-color: gray;
+}
+
+.itemHover {
+    cursor: pointer;
+    width: 190px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 0px 5px;
+}
+
+p.itemContent {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.icon {
+    width: 50px;
+}
+
+#Home {
+    display: flex;
+    align-items: center;
+    width: 190px;
+}
+
+#houseIcon {
+    padding-left: 8px;
+    font-size: 18px;
+}
+
+#Shorts {
+    border: none;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    width: 190px;
+
+}
+
+#shortsImg {
+    padding-left: 2px;
+}
+
+.menuText {
+    font-size: 14px;
+    font-weight: 200;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+#shortsImg {
+    width: 30px;
+    display: flex;
+    align-items: center;
+}
+
+#Subscriptions {
+    border: none;
+    display: flex;
+    align-items: center;
+    width: 190px;
+}
+
+#subscriptionImg {
+    width: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 4px;
+}
+
+.itemHover:hover {
+    background-color: hsla(0, 0%, 83%, 0.395);
+}
+
+#items1 {
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+}
+
+#cutLine {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border-bottom: 1px solid lightgray;
+    padding: 0px;
+}
+
+#items2 {
+    display: flex;
+    flex-direction: column;
+    height: 280px;
+}
+
+#You {
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+#YouText {
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: 550;
+    width: 32px;
+}
+
+#greaterThan {
+    width: 15px;
+    padding-right: 130px;
+}
+
+#YourChannel {
+    height: 40px;
+    border: none;
+    display: flex;
+    align-items: center;
+    width: 190px;
+}
+
+#yourChannelImg {
+    width: 25px;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+
+#History {
+    height: 40px;
+    border: none;
+    display: flex;
+    align-items: center;
+    width: 190px;
+}
+
+#historyImg {
+    width: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 6px;
+}
+
+#Playlists {
+    height: 40px;
+    border: none;
+    display: flex;
+    align-items: center;
+    width: 190px;
+}
+
+#playlistsImg {
+    width: 22px;
+    display: flex;
+    align-items: center;
+    padding-left: 6px;
+}
+
+#YourVideos {
+    height: 40px;
+    border: none;
+    display: flex;
+    align-items: center;
+    width: 190px;
+}
+
+#yourVideosImg {
+    width: 22px;
+    display: flex;
+    align-items: center;
+    padding-left: 6px;
+}
+
+#WatchLater {
+    height: 40px;
+    border: none;
+    display: flex;
+    align-items: center;
+    width: 190px;
+}
+
+#watchLaterImg {
+    width: 33px;
+    display: flex;
+    align-items: center;
+    padding-left: 0px;
+}
+
+#LikedVideos {
+    height: 40px;
+    border: none;
+    display: flex;
+    align-items: center;
+    width: 190px;
+}
+
+#likedVideosImg {
+    width: 28px;
+    display: flex;
+    align-items: center;
+    padding-left: 3px;
+}
+
+#items3 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#items3Sub {
+    width: 180px;
+    padding-left: 6px;
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: 550;
+    text-align: left;
+}
+
+.subscriptionsList {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 3px;
+}
+
+.subscription {
+    height: 40px;
+    border: none;
+    display: flex;
+    align-items: center;
+    width: 190px;
+}
+
+#bottomContent {
+    display: flex;
+    flex-direction: column;
+}
+
+#middleContent {
+    display: flex;
+    flex-direction: row;
+}
+
+#topicAndVideos {
+    display: flex;
+    flex-direction: column;
+}
+
+#topic {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    background-color: white;
+}
+
+.topicText {
+    font-size: 14px;
+    font-weight: 550;
+    padding: 8px 11px;
+    background-color: hsla(0, 0%, 83%, 0.395);
+    border: none;
+    border-radius: 8px;
+    margin-right: 8px;
+}
+
+#All {
+    background-color: black;
+    color: white;
+}
+
+.VR {
+    margin-bottom: 60px;
+}
+
+#VideosRow1 {
+    display: flex;
+    flex: row;
+}
+
+#Videos {
+    margin-top: 85px;
+    display: flex;
+    flex-direction: column;
+}
+
+.VideosBox {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 16px;
+}
+
+.thumbnail {
+    width: 400px;
+    height: 222px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+}
+
+.VideosBoxElement {
+    height: 110px;
+    display: flex;
+    flex-direction: row;
+}
+
+.createrImgBox {
+    width: 12%;
+    padding-top: 12px;
+    display: flex;
+    flex-direction: row;
+}
+
+.createrImg {
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+    border-radius: 18px;
+}
+
+.Title {
+    padding-top: 12px;
+    font-size: 15px;
+    font-weight: 550;
+    font-family: "Roboto", "Arial", sans-serif;
+    display: flex;
+    flex-direction: row;
+    line-height: 25px;
+}
+
+.TitleNameViews {
+    width: 88%;
+}
+
+.Name {
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
+.Views {
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
+#VideosRow2 {
+    display: flex;
+    flex: row;
+}
