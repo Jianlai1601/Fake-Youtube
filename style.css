@@ -449,6 +449,7 @@ p.itemContent {
 
 .VR {
     margin-bottom: 60px;
+    margin-right: 16px;
 }
 
 #VideosRow1 {
@@ -466,7 +467,6 @@ p.itemContent {
     width: 400px;
     display: flex;
     flex-direction: column;
-    margin-right: 16px;
 }
 
 .thumbnail {
