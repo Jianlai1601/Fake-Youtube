@@ -151,16 +151,17 @@ a {
 }
 
 #contentMenu {
-    position: static;
+    position: fixed;
     z-index: 9;
     display: flex;
     flex-direction: column;
     padding-top: 20px;
     padding-left: 15px;
-    width: 250px;
-    height: 500px;
+    width: 230px;
+    height: 635px;
     scrollbar-width: 5px;
     scrollbar-color: gray;
+    overflow-y: scroll;
 }
 
 .itemHover {
@@ -407,6 +408,113 @@ p.itemContent {
     width: 190px;
 }
 
+#ShowMore {
+    height: 40px;
+    border: none;
+    display: flex;
+    align-items: center;
+    width: 190px;
+}
+
+#ShowMoreIconBox {
+    width: 45px;
+}
+
+#ShowMoreIcon {
+    width: 15px;
+    display: flex;
+    align-items: center;
+    padding-left: 0px;
+    margin-left: 3px;
+    transform: rotate(90deg);
+}
+
+#items4Explore {
+    width: 180px;
+    padding-left: 6px;
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: 550;
+    text-align: left;
+}
+
+#Trending {
+    height: 40px;
+    border: none;
+    display: flex;
+    align-items: center;
+    width: 190px;
+}
+
+#TrendingImg {
+    width: 22px;
+    display: flex;
+    align-items: center;
+    padding-left: 3px;
+}
+
+#Music {
+    height: 40px;
+    border: none;
+    display: flex;
+    align-items: center;
+    width: 190px;
+}
+
+#MusicImg {
+    width: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 3px;
+}
+
+#Gaming {
+    height: 40px;
+    border: none;
+    display: flex;
+    align-items: center;
+    width: 190px;
+}
+
+#GamingImg {
+    width: 21px;
+    display: flex;
+    align-items: center;
+    padding-left: 3px;
+}
+
+#News {
+    height: 40px;
+    border: none;
+    display: flex;
+    align-items: center;
+    width: 190px;
+}
+
+#NewsImg {
+    width: 18px;
+    display: flex;
+    align-items: center;
+    padding-left: 3px;
+}
+
+#Sports {
+    height: 40px;
+    border: none;
+    display: flex;
+    align-items: center;
+    width: 190px;
+}
+
+#SportsImg {
+    width: 18px;
+    display: flex;
+    align-items: center;
+    padding-left: 3px;
+}
+
 #bottomContent {
     display: flex;
     flex-direction: column;
@@ -418,6 +526,8 @@ p.itemContent {
 }
 
 #topicAndVideos {
+    position: relative;
+    left: 265px;
     display: flex;
     flex-direction: column;
 }
@@ -530,6 +640,11 @@ p.itemContent {
 }
 
 #VideosRow2 {
+    display: flex;
+    flex: row;
+}
+
+#VideosRow3 {
     display: flex;
     flex: row;
 }
